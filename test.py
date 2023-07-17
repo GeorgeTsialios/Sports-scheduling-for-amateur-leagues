@@ -1,3 +1,4 @@
+from operator import indexOf
 import pulp
 import random
 import timeit
@@ -45,10 +46,15 @@ for i in T:
 E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
 for i in T:
-     if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ' or i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'PEAΛ MANTPI':
-          E[(i)] = 2
-     else:
-          E[(i)] = 0
+    if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
+            E[(i)] = 1
+    elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'PEAΛ MANTPI':
+            E[(i)] = 2
+    else:
+            E[(i)] = 0
+
+noTeamsDouble = sum(E[(i)] and 1 for i in T)
+teamsDouble = [i for i in T if E[(i)]]
 
 # PROBLEM SET UP
 
@@ -80,7 +86,7 @@ if (sum(E.values())>=2):
                 (40 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
               +   (40 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
               +   (10 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] ) \
-              +   (10 / min(10, 2 * sum(E[(i)] and 1 for i in T))) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j for d in D)
+              +   (10 / min(10, 2 * noTeamsDouble)) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j for d in D)
 else:
     timetable += \
                     (40 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
@@ -134,57 +140,83 @@ for i in T:
 tStart = timeit.default_timer()
 timetable.solve(pulp.PULP_CBC_CMD(msg=False))
 tEnd = timeit.default_timer()
-print(f'Problem solved in: {(tEnd-tStart):5.3f} seconds')
+print(f"\n----------WEEK 1----------")
+print(f"\nProblem solved in: {(tEnd-tStart):5.3f} seconds")
 
-# Print the status of the solved LP
+# STATUS OF THE SOLVED LP
+
 print("Status:", pulp.LpStatus[timetable.status])
 
-# Print the value of the objective
+# VALUE OF THE OBJECTIVE FUNCTION
+
 print(f"Z = {pulp.value(timetable.objective):5.2f}")
 
-# Print the value of the variables at the optimum
-# for v in timetable.variables():
-#     if v.varValue == 1:
-#         print(f'{v.name} = {v.varValue:5.2f}')
-# print(x)
+print("\nSchedule:")
+
+print(f"\nTeams able to play twice this week: {noTeamsDouble}", end=" ")
+if noTeamsDouble > 0:
+    print("(", end= "")
+    for i in range(len(teamsDouble)):
+        if i != len(teamsDouble)-1:
+            print(f"{teamsDouble[i]}", end= ", ")
+        else:
+            print(f"{teamsDouble[i]}", end="")
+    print(")")
+else:
+     print("")
+# WEEKLY SCHEDULE
+
+print("\nDay \t     - Home \t    - Away")
 weeklyMatches = []
 for match in x:
     if x[match].varValue == 1:
         weeklyMatches.append(match)
 
 weeklyMatches.sort(key=lambda x: D.index(x[2]))
-for match in weeklyMatches:
-    print(match)
+singleMatches = []
+for index in range(len(weeklyMatches)-1):
+     if index % 2 == 0:
+          singleMatches.append(weeklyMatches[index])
+# for match in singleMatches:
+#     print(f"{match[0]} - {match[1]} - {match[2]}")
+for day in D:
+    counter = 0
+    for i in range(len(singleMatches)):
+        if singleMatches[i][2] == day:
+            counter+=1
+            break
+    if counter:
+        print(f"{singleMatches[i][2]:12} - {singleMatches[i][0]:12} - {singleMatches[i][1]:12}")
+    else:   
+        print(f"{day}")
+            
 
 #PLAYERS ABLE TO PLAY
 
+print("\nTeam \t     - Matchday     - Players available:")
 totalSum = 0
 for match in x:
     if x[match].varValue == 1:
-        # print(match[0],match[2])
         Sum =0
         for p in range(1,7):
             Sum += P[(match[0], p, match[2])] and 1
         totalSum += Sum
-        print(f"{match[0]}-{match[2]}-{Sum}")
-print(totalSum)
-
-# result = pulp.lpSum(1 for match in x if x[match].varValue == 1 for p in range(1,7) if P[(match[0], p, match[2])] and 1)
-# print(result)
+        print(f"{match[0]:12} - {match[2]:12} - {Sum:1d}")
+print(f"Total number of available players: {totalSum}")
 
 # HOW MUCH IT FITS THE PLAYERS
-
+print("\nTeam \t     - Matchday     - Sum of players' availability:")
 totalSum = 0
 for match in x:
     if x[match].varValue == 1:
-        # print(match[0],match[2])
         Sum =0
         for p in range(1,7):
             Sum += P[(match[0], p, match[2])]
         totalSum += Sum
-        print(f"{match[0]}-{match[2]}-{Sum}")
-print(totalSum)
+        print(f"{match[0]:12} - {match[2]:12} - {Sum:2d}")
+print(f"Total sum of players' availability: {totalSum}\n")
 
-# No of teams able to play 2 games this week
+# GPDI
+if noTeamsDouble > 0:
+    print(f"Teams behind in games played, play {(sum(x[(i, j, d)].varValue * (E[(i)] and 1) for i in T for j in T if i != j for d in D)):1.0f} times (max {min(10,2 * noTeamsDouble)})\n")
 
-print(sum(E.values()))
