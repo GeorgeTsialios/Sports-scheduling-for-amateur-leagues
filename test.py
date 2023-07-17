@@ -44,8 +44,8 @@ for i in T:
 E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
 for i in T:
-     if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
-          E[(i)] = 1
+     if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ' or i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'PEAΛ MANTPI':
+          E[(i)] = 2
      else:
           E[(i)] = 0
 
@@ -77,8 +77,9 @@ x = pulp.LpVariable.dicts("x", [(i, j, d) for i in T for j in T if i!=j for d in
 if (sum(E.values())>=2):
     timetable += \
                 (40 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
-             +   (40 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-             +   (20 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] ) 
+              +   (40 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+              +   (10 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] ) \
+              +   (10 / min(10, 2 * sum(E[(i)] and 1 for i in T))) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j for d in D)
 else:
     timetable += \
                     (40 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
@@ -179,5 +180,7 @@ for match in x:
         totalSum += Sum
         print(f"{match[0]}-{match[2]}-{Sum}")
 print(totalSum)
+
+# No of teams able to play 2 games this week
 
 print(sum(E.values()))
