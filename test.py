@@ -44,10 +44,10 @@ for i in T:
 E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
 for i in T:
-    # if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
-         E[(i)] = 1
-    # else:
-        # E[(i)] = 0
+     if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
+          E[(i)] = 1
+     else:
+          E[(i)] = 0
 
 # PROBLEM SET UP
 
@@ -73,18 +73,17 @@ x = pulp.LpVariable.dicts("x", [(i, j, d) for i in T for j in T if i!=j for d in
 
 
 # OBJECTIVE FUNCTION
-# timetable += \
-#             (40/8) * pulp.lpSum(x[(i,j,d)] for i in T for j in T if i!=j for d in D) \
-#         + (40/48)  * pulp.lpSum((x[(i,j,d)] for j in T if j!=i) * (P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) for i in T for d in D) \
-#         + (20/480) * pulp.lpSum((x[(i,j,d)] for j in T if j!=i) * (P[(i, p, d)] for p in range(1,7)) for i in T for d in D) \
-#         , "obj"
 
-timetable += \
-             (40 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
-        #  +   (40 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-        #   +   (20 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] ) \
-
-        # +  (20 / 480) * pulp.lpSum(P[(i, p, d)] for i in T for d in D for j in T if j!=i and x[(i,j,d)] == 1 for p in range(1,7)) \
+if (sum(E.values())>=2):
+    timetable += \
+                (40 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
+             +   (40 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+             +   (20 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] ) 
+else:
+    timetable += \
+                    (40 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
+                +   (40 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                +   (20 / 480) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] ) \
 
 # CONSTRAINTS
 
@@ -136,7 +135,7 @@ timetable.solve(pulp.PULP_CBC_CMD(msg=False))
 print("Status:", pulp.LpStatus[timetable.status])
 
 # Print the value of the objective
-print("Z =", pulp.value(timetable.objective))
+print(f"Z = {pulp.value(timetable.objective):5.2f}")
 
 # Print the value of the variables at the optimum
 # for v in timetable.variables():
@@ -180,3 +179,5 @@ for match in x:
         totalSum += Sum
         print(f"{match[0]}-{match[2]}-{Sum}")
 print(totalSum)
+
+print(sum(E.values()))
