@@ -45,9 +45,9 @@ E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
 for i in T:
     # if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
-        E[(i)] = 1
+        # E[(i)] = 1
     # else:
-    #     E[(i)] = 0
+        E[(i)] = 0
 
 # PROBLEM SET UP
 
@@ -80,9 +80,9 @@ x = pulp.LpVariable.dicts("x", [(i, j, d) for i in T for j in T if i!=j for d in
 #         , "obj"
 
 timetable += \
-            (40 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
+             (40 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D) \
+         +   (40 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
     ,"obj"
-        # +   (40 / 48) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for i in T for d in D for j in T if j!=i and x[(i,j,d)] == 1 for p in range(1,7)) \
         # +  (20 / 480) * pulp.lpSum(P[(i, p, d)] for i in T for d in D for j in T if j!=i and x[(i,j,d)] == 1 for p in range(1,7)) \
 
 # CONSTRAINTS
@@ -150,3 +150,17 @@ for match in x:
 weeklyMatches.sort(key=lambda x: D.index(x[2]))
 for match in weeklyMatches:
     print(match)
+
+totalSum = 0
+for match in x:
+    if x[match].varValue == 1:
+        # print(match[0],match[2])
+        Sum =0
+        for p in range(1,7):
+            Sum += P[(match[0], p, match[2])] and 1
+        totalSum += Sum
+        print(f"{match[0]}-{match[2]}-{Sum}")
+print(totalSum)
+
+# result = pulp.lpSum(1 for match in x if x[match].varValue == 1 for p in range(1,7) if P[(match[0], p, match[2])] and 1)
+# print(result)
