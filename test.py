@@ -1,5 +1,6 @@
 import pulp
 import random
+import timeit
 
 random.seed(1)
 
@@ -130,7 +131,10 @@ for i in T:
 
 # SOLUTION
 
+tStart = timeit.default_timer()
 timetable.solve(pulp.PULP_CBC_CMD(msg=False))
+tEnd = timeit.default_timer()
+print(f'Problem solved in: {(tEnd-tStart):5.3f} seconds')
 
 # Print the status of the solved LP
 print("Status:", pulp.LpStatus[timetable.status])
