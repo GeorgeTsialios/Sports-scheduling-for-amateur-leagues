@@ -164,10 +164,10 @@ for w in range(1, 9):
         print("\nTeam \t     - Opponents")
         for i in T:
             opponents = []
-            for j in T:
-                if i != j and [i,j] in matchesPlayed:
-                    opponents.append(j)
-            # opponents.sort()
+            for match in matchesPlayed:
+                if match[0] == i:
+                    opponents.append(match[1])
+            # opponents.sort()              Without alphabetical order, we can the see the order of the matches played
             print(f"{i:12} - ", end="")
             for j in opponents:
                 if j != opponents[-1]:
