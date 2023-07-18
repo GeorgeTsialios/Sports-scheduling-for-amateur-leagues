@@ -8,13 +8,13 @@ import timeit
 
 T = [
     'ΒΙΓΙΑΡΕΜΑΛ',
-    'MHN ΨHNECE',
+    'ΜΗN ΨHNECE',
     'ΘΛΙΒΕΡΠΟΥΛ',
     'ΧΑΒΑΛΕΝΘΙΑ',
     'ΜΠΥΡΑΚΛΗΣ',
-    'JUVETSI',
+    'ΓΙΟΥΒΕΤΣΙ',
     'ΜΠΑΡΤΣΕΛΙΩΜΑ',
-    'PEAΛ MANTPI'
+    'ΡΕAΛ MANTPI'
 ]
 
 D = [
@@ -51,7 +51,7 @@ for w in range(1, 9):
     for i in T:
         if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
                 E[(i)] = 1
-        elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'PEAΛ MANTPI':
+        elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'ΡΕAΛ MANTPI':
                 E[(i)] = 2
         else:
                 E[(i)] = 0
@@ -143,7 +143,7 @@ for w in range(1, 9):
     tStart = timeit.default_timer()
     timetable.solve(pulp.PULP_CBC_CMD(msg=False))
     tEnd = timeit.default_timer()
-    print(f"\n----------WEEK {w}----------")
+    print(f"\n---------------WEEK {w}---------------")
     print(f"\nProblem solved in: {(tEnd-tStart):5.3f} seconds")
 
     # STATUS OF THE SOLVED LP
@@ -154,7 +154,7 @@ for w in range(1, 9):
 
     print(f"Z = {pulp.value(timetable.objective):5.2f}")
 
-    print("\nSchedule:")
+    print("\n\t       Schedule")
 
     print(f"\nTeams able to play twice this week: {numberTeamsDouble}", end=" ")
     if numberTeamsDouble > 0:
@@ -193,33 +193,61 @@ for w in range(1, 9):
         else:   
             print(f"{day}")
 
+    # TEAMS NOT PLAYING THIS WEEK
+    teamsNotPlaying = T.copy()
+    for i in singleMatches:
+        if i[0] in teamsNotPlaying:
+            teamsNotPlaying.remove(i[0])
+        if i[1] in teamsNotPlaying:
+            teamsNotPlaying.remove(i[1])
+    print(f"\nTeams not playing this week: {len(teamsNotPlaying)}", end=" ")
+    if len(teamsNotPlaying) > 0:
+        print("(", end= "")
+        for i in range(len(teamsNotPlaying)):
+            if i != len(teamsNotPlaying)-1:
+                print(f"{teamsNotPlaying[i]}", end= ", ")
+            else:
+                print(f"{teamsNotPlaying[i]})")
+    else:
+        print("")
+
     #PLAYERS ABLE TO PLAY
+
+    print("\n\t       Availability")
+
+    # Sort first by team name, then by day
+    def custom_sort(item):
+        team_name = item[0]
+        day = item[2]
+        return (team_name, D.index(day))
+
+    # Sort the weeklyMatches list using the custom sorting function
+    weeklyMatches = sorted(weeklyMatches, key=custom_sort)
 
     print("\nTeam \t     - Matchday     - Players available:")
     totalSum = 0
-    for match in x:
-        if x[match].varValue == 1:
-            Sum =0
-            for p in range(1,7):
-                Sum += P[(match[0], p, match[2])] and 1
-            totalSum += Sum
-            print(f"{match[0]:12} - {match[2]:12} - {Sum:1d}")
+    for match in weeklyMatches:
+        Sum =0
+        for p in range(1,7):
+            Sum += P[(match[0], p, match[2])] and 1
+        totalSum += Sum
+        print(f"{match[0]:12} - {match[2]:12} - {Sum:1d}")
     print(f"Total number of available players: {totalSum} (max {60 if numberTeamsDouble >= 2 else 48})")
 
     # HOW MUCH IT FITS THE PLAYERS
     print("\nTeam \t     - Matchday     - Sum of players' availability:")
     totalSum = 0
-    for match in x:
-        if x[match].varValue == 1:
-            Sum =0
-            for p in range(1,7):
-                Sum += P[(match[0], p, match[2])]
-            totalSum += Sum
-            print(f"{match[0]:12} - {match[2]:12} - {Sum:2d}")
+    for match in weeklyMatches:
+        Sum =0
+        for p in range(1,7):
+            Sum += P[(match[0], p, match[2])]
+        totalSum += Sum
+        print(f"{match[0]:12} - {match[2]:12} - {Sum:2d}")
     print(f"Total sum of players' availability: {totalSum} (max {600 if numberTeamsDouble >= 2 else 480})\n")
 
     # GPDI
     if numberTeamsDouble > 0:
+        print("\t       GPDI\n")
         print(f"Teams behind in games played, play {(sum(x[(i, j, d)].varValue * (E[(i)] and 1) for i in T for j in T if i != j for d in D)):1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
 
     if w < 8:
