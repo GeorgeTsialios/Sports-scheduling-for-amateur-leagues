@@ -8,13 +8,13 @@ import timeit
 
 T = [
     'ΒΙΓΙΑΡΕΜΑΛ',
-    'ΜΗN ΨHNECE',
-    'ΘΛΙΒΕΡΠΟΥΛ',
-    'ΧΑΒΑΛΕΝΘΙΑ',
-    'ΜΠΥΡΑΚΛΗΣ',
     'ΓΙΟΥΒΕΤΣΙ',
+    'ΘΛΙΒΕΡΠΟΥΛ',
+    'ΜΗN ΨHNECE',
     'ΜΠΑΡΤΣΕΛΙΩΜΑ',
-    'ΡΕAΛ MANTPI'
+    'ΜΠΥΡΑΚΛΗΣ',
+    'ΡΕAΛ MANTPI',
+    'ΧΑΒΑΛΕΝΘΙΑ'
 ]
 
 D = [
@@ -156,6 +156,28 @@ for w in range(1, 9):
 
     print(f"Z = {pulp.value(timetable.objective):5.2f}")
 
+    # ALREADY PLAYED MATCHES
+
+    if w > 1:
+        print("\n\t       Matches played")
+
+        print("\nTeam \t     - Opponents")
+        for i in T:
+            opponents = []
+            for j in T:
+                if i != j and [i,j] in matchesPlayed:
+                    opponents.append(j)
+            # opponents.sort()
+            print(f"{i:12} - ", end="")
+            for j in opponents:
+                if j != opponents[-1]:
+                    print(f"{j}", end=", ")
+                else:
+                    print(f"{j}", end="")
+            print("")
+
+    # WEEKLY SCHEDULE
+
     print("\n\t       Schedule")
 
     print(f"\nTeams able to play twice this week: {numberTeamsDouble}", end=" ")
@@ -169,7 +191,6 @@ for w in range(1, 9):
         print(")")
     else:
         print("")
-    # WEEKLY SCHEDULE
 
     print("\nDay \t     - Home \t    - Away")
     weeklyMatches = []
