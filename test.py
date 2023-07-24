@@ -3,7 +3,6 @@ import pulp
 import random
 import timeit
 
-
 # SETS
 
 T = [
@@ -53,7 +52,7 @@ for w in range(1, 9):
     #             print(f"{d}: {P[(i, p, d)]}" ,end=" ")
     # print('\n')
 
-    # create teams' need for extra games
+    # create teams' need for extra matches
 
     E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
@@ -65,8 +64,13 @@ for w in range(1, 9):
         else:
                 E[(i)] = 0
 
-    numberTeamsDouble = sum(E[(i)] and 1 for i in T)
+    # The teams that need extra matches
+
     teamsDouble = [i for i in T if E[(i)]]
+
+    # No of teams that need extra matches
+
+    numberTeamsDouble = len(teamsDouble)
 
     # Problem Setup
 
@@ -108,8 +112,8 @@ for w in range(1, 9):
     # Constraints
 
     # 1) A team can play:
-    #    a) up to once per week if they are not behind in games played
-    #    b) up to twice per week if they are behind in games played
+    #    a) up to once per week if they are not behind in matches played
+    #    b) up to twice per week if they are behind in matches played
 
     for i in T:
         timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed for d in D) <= 1 + (E[(i)] and 1)
@@ -122,24 +126,24 @@ for w in range(1, 9):
                     timetable += pulp.lpSum(x[(i,j,d)] for d in D) <= 1
 
 
-    # 3) A team (that is behind in games played) can not play two consecutive days
+    # 3) A team (that is behind in matches played) can not play two consecutive days
 
     for i in T:
         for k in range(len(D)-1):
             timetable += (pulp.lpSum(x[(i,j,D[k])] for j in T if i != j and [i,j] not in matchesPlayed) + pulp.lpSum(x[(i,j,D[k+1])] for j in T if i != j and [i,j] not in matchesPlayed) <= 1)
 
-    # 4) Max 1 game per day can be played
+    # 4) Max 1 match per day can be played
 
     for d in D:
         timetable += pulp.lpSum(x[(i,j,d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed) <= 2
 
-    # 5) A team can play when at least 4 of their players are available
+    # 5) A team can play when at least 4 of its players are available
 
     for i in T:
         for d in D:
             timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) >= 4 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed)
 
-    # 6) Home and away games are the same
+    # 6) Home and away matches are the same
 
     for i in T:
         for j in T:
@@ -147,7 +151,7 @@ for w in range(1, 9):
                 for d in D:
                     timetable += x[(i,j,d)] == x[(j,i,d)]
 
-    # SOLUTION
+    # Solution
 
     tStart = timeit.default_timer()
     timetable.solve(pulp.PULP_CBC_CMD(msg=False))
@@ -155,15 +159,15 @@ for w in range(1, 9):
     print(f"\n---------------WEEK {w}---------------")
     print(f"\nProblem solved in: {(tEnd-tStart):5.3f} seconds")
 
-    # STATUS OF THE SOLVED LP
+    # Status of the solved lp
 
     print("Status:", pulp.LpStatus[timetable.status])
 
-    # VALUE OF THE OBJECTIVE FUNCTION
+    # Value of the objective function
 
     print(f"Z = {pulp.value(timetable.objective):5.2f}")
 
-    # ALREADY PLAYED MATCHES
+    # Already played matches
 
     if w > 1:
         print("\n\t       Matches played")
@@ -183,12 +187,13 @@ for w in range(1, 9):
                     print(f"{j}", end="")
             print("")
 
-    # WEEKLY SCHEDULE
+    # Weekly schedule
 
     print("\n\t       Schedule")
 
+    # No of teams able to play twice this week and which ones
+
     print(f"\nTeams able to play twice this week: {numberTeamsDouble}", end=" ")
-    print(sum(E.values()))
     if numberTeamsDouble > 0:
         print("(", end= "")
         for i in range(len(teamsDouble)):
@@ -205,14 +210,25 @@ for w in range(1, 9):
     for match in x:
         if x[match].varValue == 1:
             weeklyMatches.append(match)
+
+    # Add the weekly matches to the list of matches played
+
     for match in weeklyMatches:
         matchesPlayed.append([match[0], match[1]])
 
+    # Sort the matches by day
+    
     weeklyMatches.sort(key=lambda x: D.index(x[2]))
+
+    # The singleMatches list contains the weekly matches just once (without the reverse match)
+
     singleMatches = []
     for index in range(len(weeklyMatches)-1):
         if index % 2 == 0:
             singleMatches.append(weeklyMatches[index])
+
+    # Print the weekly schedule by day (if there are no matches on a day, print the day anyway)
+
     for day in D:
         counter = 0
         for i in range(len(singleMatches)):
@@ -224,13 +240,17 @@ for w in range(1, 9):
         else:   
             print(f"{day}")
 
-    # TEAMS NOT PLAYING THIS WEEK
+    # Teams not playing this week
+
     teamsNotPlaying = T.copy()
     for i in singleMatches:
         if i[0] in teamsNotPlaying:
             teamsNotPlaying.remove(i[0])
         if i[1] in teamsNotPlaying:
             teamsNotPlaying.remove(i[1])
+
+    # Print the no of teams not playing this week and which ones
+
     print(f"\nTeams not playing this week: {len(teamsNotPlaying)}", end=" ")
     if len(teamsNotPlaying) > 0:
         print("(", end= "")
@@ -242,11 +262,12 @@ for w in range(1, 9):
     else:
         print("")
 
-    #PLAYERS ABLE TO PLAY
+    # Players availability
 
     print("\n\t       Availability")
 
     # Sort first by team name, then by day
+
     def custom_sort(item):
         team_name = item[0]
         day = item[2]
@@ -255,48 +276,54 @@ for w in range(1, 9):
     # Sort the weeklyMatches list using the custom sorting function
     weeklyMatches = sorted(weeklyMatches, key=custom_sort)
 
+    # No of players available for each team on its matchday
+
     print("\nTeam \t     - Matchday     - Players available:")
     totalSum = 0
     for match in weeklyMatches:
-        Sum =0
+        teamSum = 0
         for p in range(1,7):
-            Sum += P[(match[0], p, match[2])] and 1
-        totalSum += Sum
-        print(f"{match[0]:12} - {match[2]:12} - {Sum:1d}")
+            teamSum += P[(match[0], p, match[2])] and 1
+        totalSum += teamSum
+        print(f"{match[0]:12} - {match[2]:12} - {teamSum:1d}")
+
     print(f"Total number of available players: {totalSum} (max {60 if numberTeamsDouble >= 2 else 48})")
 
-    # HOW MUCH IT FITS THE PLAYERS
+    # Amount of players' availability for each team on its matchday
+
     print("\nTeam \t     - Matchday     - Sum of players' availability:")
     totalSum = 0
     for match in weeklyMatches:
-        Sum =0
+        teamSum =0
         for p in range(1,7):
-            Sum += P[(match[0], p, match[2])]
-        totalSum += Sum
-        print(f"{match[0]:12} - {match[2]:12} - {Sum:2d}")
+            teamSum += P[(match[0], p, match[2])]
+        totalSum += teamSum
+        print(f"{match[0]:12} - {match[2]:12} - {teamSum:2d}")
+
     print(f"Total sum of players' availability: {totalSum} (max {600 if numberTeamsDouble >= 2 else 480})\n")
 
-    # GPDI
+    # Games Played Difference Index
+
     if numberTeamsDouble >= 2:
         print("\t       GPDI\n")
-        print(f"Teams behind in games played, play {(sum(x[(i, j, d)].varValue * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D)):1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
+        print(f"Teams behind in matches played, play {(sum(x[(i, j, d)].varValue * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D)):1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
 
     # print(matchesPlayed)
     # if ['ΡΕAΛ MANTPI', 'ΜΠΥΡΑΚΛΗΣ'] in matchesPlayed:
     #     print('true')
 
     if w < 8:
-        if len(matchesPlayed) == 56:
+        if len(matchesPlayed) == 56:        # in case that all matches are played by the 7th week, the program ends
             print("Tournament finished. All matches played!\n")
             break
-        else:
+        else:                               # if the tournament has not finished yet, ask for permission to continue to next week
             cont = input("Continue? (y/n): ")
             if cont == "y" or cont == "Y" or cont == "yes" or cont == "Yes" or cont == "YES":
                 continue
             else:
                 break
-    else:
-        if len(matchesPlayed) == 56:
+    else:   # Code for the 8th week, program ends right after
+        if len(matchesPlayed) == 56:        # in case that all matches are played by the 8th week
             print("Tournament finished. All matches played!\n")
-        else:
+        else:                               # in case that not all matches are played, despite having the extra 8th week
             print(f"Tournament finished. {56-len(matchesPlayed)} matches not played!\n")
