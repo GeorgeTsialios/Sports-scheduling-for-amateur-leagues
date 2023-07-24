@@ -1,4 +1,4 @@
-from operator import indexOf
+# from operator import indexOf
 import pulp
 import random
 import timeit
@@ -27,9 +27,13 @@ D = [
 
 matchesPlayed = []
 
+# for every week of the tournament
+
 for w in range(1, 9):
 
     random.seed(1)
+
+    # create players' availability
 
     P = pulp.LpVariable.dicts("P", [(i, p, d) for i in T for p in range(1,7) for d in D], cat= pulp.LpInteger)
 
@@ -39,6 +43,7 @@ for w in range(1, 9):
             for d in D:
                 P[(i, p, d)] = random.choice([0, 4, 7, 10])
 
+    # print players' availability
 
     # for i in T:
     #     print(f"\n\n{i}", end=" ")
@@ -48,24 +53,26 @@ for w in range(1, 9):
     #             print(f"{d}: {P[(i, p, d)]}" ,end=" ")
     # print('\n')
 
+    # create teams' need for extra games
+
     E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
     for i in T:
-        # if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
-        #         E[(i)] = 1
-        # elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'ΡΕAΛ MANTPI':
-        #         E[(i)] = 2
-        # else:
+        if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
+                E[(i)] = 1
+        elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'ΡΕAΛ MANTPI':
+                E[(i)] = 2
+        else:
                 E[(i)] = 0
 
     numberTeamsDouble = sum(E[(i)] and 1 for i in T)
     teamsDouble = [i for i in T if E[(i)]]
 
-    # PROBLEM SET UP
+    # Problem Setup
 
     timetable = pulp.LpProblem("Weekly timetable", pulp.LpMaximize)
 
-    # DECISION VARIABLES
+    # Decision Variables
 
     x = pulp.LpVariable.dicts("x", [(i, j, d) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D], cat= pulp.LpBinary)
 
@@ -84,9 +91,9 @@ for w in range(1, 9):
     # print(x)
 
 
-    # OBJECTIVE FUNCTION
+    # Objective Function
 
-    if (sum(E.values())>=2):
+    if (numberTeamsDouble >=2):
         timetable += \
                     (40 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
                 +   (40 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
@@ -98,7 +105,7 @@ for w in range(1, 9):
                     +   (40 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
                     +   (20 / 480) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) \
 
-    # CONSTRAINTS
+    # Constraints
 
     # 1) A team can play:
     #    a) up to once per week if they are not behind in games played
@@ -181,6 +188,7 @@ for w in range(1, 9):
     print("\n\t       Schedule")
 
     print(f"\nTeams able to play twice this week: {numberTeamsDouble}", end=" ")
+    print(sum(E.values()))
     if numberTeamsDouble > 0:
         print("(", end= "")
         for i in range(len(teamsDouble)):
@@ -269,7 +277,7 @@ for w in range(1, 9):
     print(f"Total sum of players' availability: {totalSum} (max {600 if numberTeamsDouble >= 2 else 480})\n")
 
     # GPDI
-    if numberTeamsDouble > 0:
+    if numberTeamsDouble >= 2:
         print("\t       GPDI\n")
         print(f"Teams behind in games played, play {(sum(x[(i, j, d)].varValue * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D)):1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
 
