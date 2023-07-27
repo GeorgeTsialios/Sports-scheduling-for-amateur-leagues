@@ -1,7 +1,8 @@
-# from operator import indexOf
 import pulp
 import random
 import timeit
+import warnings
+warnings.filterwarnings('ignore')
 
 # SETS
 
@@ -56,13 +57,13 @@ for w in range(1, 9):
 
     # print players' availability
 
-    for i in T:
-        print(f"\n\n{i}", end=" ")
-        for p in range(1,7):
-            print(f"\n\nPlayer {p}")
-            for d in D:
-                print(f"{d}: {P[(i, p, d)]}" ,end=" ")
-    print('\n')
+    # for i in T:
+    #     print(f"\n\n{i}", end=" ")
+    #     for p in range(1,7):
+    #         print(f"\n\nPlayer {p}")
+    #         for d in D:
+    #             print(f"{d}: {P[(i, p, d)]}" ,end=" ")
+    # print('\n')
     
     # print teams' need for extra matches
 
