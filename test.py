@@ -38,7 +38,7 @@ for i in T:
 
 for w in range(1, 9):
 
-    random.seed(w+50)   # 44-45-50
+    random.seed(w+24)   # 44-45-50
 
     # create players' availability
 
@@ -75,8 +75,8 @@ for w in range(1, 9):
     
     # print teams' need for extra matches
 
-    # for i in T:
-    #     print(f"\n\n{i}: {E[(i)]}")
+    for i in T:
+        print(f"\n\n{i}: {E[(i)]}")
 
     # The teams that need extra matches
 
@@ -96,7 +96,20 @@ for w in range(1, 9):
 
     # Objective Function
 
-    if (numberTeamsDouble >=2):
+    if (w==8):
+        maxMatches = 0
+        for i in T:
+            if (E[(i)]<3):
+                maxMatches += E[(i)]
+            else:
+                maxMatches += 2
+        # maxMatches /= 2
+        timetable += \
+                    (50 / min(10, maxMatches)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
+                +   (30 / min(60, maxMatches * 6)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                +   (20 / min(600, maxMatches * 60)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) \
+
+    elif (numberTeamsDouble >=2):
         timetable += \
                     (50 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
                 +   (30 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
@@ -104,9 +117,9 @@ for w in range(1, 9):
                 +   (10 / min(10, 2 * numberTeamsDouble)) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D)
     else:
         timetable += \
-                        (50 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
-                    +   (30 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                    +   (20 / 480) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) \
+                    (50 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
+                +   (30 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                +   (20 / 480) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] )
 
     # Constraints
 
