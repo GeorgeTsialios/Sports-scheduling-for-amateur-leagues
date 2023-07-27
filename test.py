@@ -26,11 +26,23 @@ D = [
 
 matchesPlayed = []
 
+# create teams' need for extra matches
+
+E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
+
+for i in T:
+        # if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
+        #         E[(i)] = 1
+        # elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'ΡΕAΛ MANTPI':
+        #         E[(i)] = 2
+        # else:
+                E[(i)] = 0
+
 # for every week of the tournament
 
 for w in range(1, 9):
 
-    random.seed(1)
+    random.seed(w)
 
     # create players' availability
 
@@ -40,29 +52,22 @@ for w in range(1, 9):
     for i in T:
         for p in range(1,7):
             for d in D:
-                P[(i, p, d)] = random.choice([0, 4, 7, 10])
+                P[(i, p, d)] = random.choice([0, 0, 4, 7, 10])
 
     # print players' availability
 
-    # for i in T:
-    #     print(f"\n\n{i}", end=" ")
-    #     for p in range(1,7):
-    #         print(f"\n\nPlayer {p}")
-    #         for d in D:
-    #             print(f"{d}: {P[(i, p, d)]}" ,end=" ")
-    # print('\n')
-
-    # create teams' need for extra matches
-
-    E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
+    for i in T:
+        print(f"\n\n{i}", end=" ")
+        for p in range(1,7):
+            print(f"\n\nPlayer {p}")
+            for d in D:
+                print(f"{d}: {P[(i, p, d)]}" ,end=" ")
+    print('\n')
+    
+    # print teams' need for extra matches
 
     for i in T:
-        if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
-                E[(i)] = 1
-        elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'ΡΕAΛ MANTPI':
-                E[(i)] = 2
-        else:
-                E[(i)] = 0
+        print(f"\n\n{i}: {E[(i)]}")
 
     # The teams that need extra matches
 
@@ -302,15 +307,23 @@ for w in range(1, 9):
 
     print(f"Total sum of players' availability: {totalSum} (max {600 if numberTeamsDouble >= 2 else 480})\n")
 
+    # Update the teams' need for extra matches
+
+    teamsBehindWeeklyMatches = 0
+    for i in T:
+        teamWeeklyMatches = sum(1 for match in weeklyMatches if match[0] == i)
+        if E[(i)] > 0:
+            teamsBehindWeeklyMatches += teamWeeklyMatches
+        if teamWeeklyMatches == 0:
+            E[(i)] += 1
+        elif teamWeeklyMatches == 2:
+            E[(i)] -= 1
+
     # Games Played Difference Index
 
     if numberTeamsDouble >= 2:
         print("\t       GPDI\n")
-        print(f"Teams behind in matches played, play {(sum(x[(i, j, d)].varValue * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D)):1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
-
-    # print(matchesPlayed)
-    # if ['ΡΕAΛ MANTPI', 'ΜΠΥΡΑΚΛΗΣ'] in matchesPlayed:
-    #     print('true')
+        print(f"Teams behind in matches played, play {teamsBehindWeeklyMatches:1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
 
     if w < 8:
         if len(matchesPlayed) == 56:        # in case that all matches are played by the 7th week, the program ends
