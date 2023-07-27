@@ -32,18 +32,13 @@ matchesPlayed = []
 E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
 for i in T:
-        # if i == 'ΒΙΓΙΑΡΕΜΑΛ' or i == 'ΜΠΥΡΑΚΛΗΣ':
-        #         E[(i)] = 1
-        # elif i == 'ΜΠΑΡΤΣΕΛΙΩΜΑ' or i == 'ΡΕAΛ MANTPI':
-        #         E[(i)] = 2
-        # else:
-                E[(i)] = 0
+    E[(i)] = 0
 
 # for every week of the tournament
 
 for w in range(1, 9):
 
-    random.seed(w+19)
+    random.seed(w+50)   # 44-45-50
 
     # create players' availability
 
@@ -64,6 +59,18 @@ for w in range(1, 9):
     #         for d in D:
     #             print(f"{d}: {P[(i, p, d)]}" ,end=" ")
     # print('\n')
+
+    # write players' availability to file
+
+    with open('availability.txt', 'w') as f:
+        for i in T:
+            f.write(f"{i}")
+            for p in range(1,7):
+                f.write(f"\n\nPlayer {p}")
+                f.write(' \n')
+                for d in D:
+                    f.write(f"{d}: {P[(i, p, d)]} ")
+            f.write('\n\n')
     
     # print teams' need for extra matches
 
@@ -85,21 +92,6 @@ for w in range(1, 9):
     # Decision Variables
 
     x = pulp.LpVariable.dicts("x", [(i, j, d) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D], cat= pulp.LpBinary)
-
-    # for i in T:
-    #     for j in T:
-    #         for d in D:
-    #             if i == j:
-    #                 del x[(i, j, d)]
-
-    # for i in T:
-    #     for j in T:
-    #         if i != j:
-    #             for d in D:
-    #                 x[(i, j, d)] = 0
-
-    # print(x)
-
 
     # Objective Function
 
