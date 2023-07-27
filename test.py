@@ -62,20 +62,21 @@ for w in range(1, 9):
 
     # write players' availability to file
 
-    with open('availability.txt', 'w') as f:
-        for i in T:
-            f.write(f"{i}")
-            for p in range(1,7):
-                f.write(f"\n\nPlayer {p}")
-                f.write(' \n')
-                for d in D:
-                    f.write(f"{d}: {P[(i, p, d)]} ")
-            f.write('\n\n')
+    # with open('availability.txt', 'a') as f:
+    #     f.write(f"----------------------------------- WEEK {w} -----------------------------------\n\n")
+    #     for i in T:
+    #         f.write(f"{i}")
+    #         for p in range(1,7):
+    #             f.write(f"\n\nPlayer {p}")
+    #             f.write(' \n')
+    #             for d in D:
+    #                 f.write(f"{d}: {P[(i, p, d)]} ")
+    #         f.write('\n\n')
     
     # print teams' need for extra matches
 
-    for i in T:
-        print(f"\n\n{i}: {E[(i)]}")
+    # for i in T:
+    #     print(f"\n\n{i}: {E[(i)]}")
 
     # The teams that need extra matches
 
@@ -164,26 +165,6 @@ for w in range(1, 9):
     # Value of the objective function
 
     print(f"Z = {pulp.value(timetable.objective):5.2f}")
-
-    # Already played matches
-
-    if w > 1:
-        print("\n\t       Matches played")
-
-        print("\nTeam \t     - Opponents")
-        for i in T:
-            opponents = []
-            for match in matchesPlayed:
-                if match[0] == i:
-                    opponents.append(match[1])
-            # opponents.sort()              Without alphabetical order, we can the see the order of the matches played
-            print(f"{i:12} - ", end="")
-            for j in opponents:
-                if j != opponents[-1]:
-                    print(f"{j}", end=", ")
-                else:
-                    print(f"{j}", end="")
-            print("")
 
     # Weekly schedule
 
@@ -317,6 +298,26 @@ for w in range(1, 9):
     if numberTeamsDouble >= 2:
         print("\t       GPDI\n")
         print(f"Teams behind in matches played, play {teamsBehindWeeklyMatches:1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
+
+    # Print the matches played by each team
+
+    print("\t       Matches played")
+
+    print("\nTeam \t     - Opponents")
+    for i in T:
+        opponents = []
+        for match in matchesPlayed:
+            if match[0] == i:
+                opponents.append(match[1])
+        # opponents.sort()              Without alphabetical order, we can the see the order of the matches played
+        print(f"{i:12} - ", end="")
+        for j in opponents:
+            if j != opponents[-1]:
+                print(f"{j}", end=", ")
+            else:
+                print(f"{j}", end="")
+        print("")
+    print("")
 
     if w < 8:
         if len(matchesPlayed) == 56:        # in case that all matches are played by the 7th week, the program ends
