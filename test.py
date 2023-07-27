@@ -43,7 +43,7 @@ for i in T:
 
 for w in range(1, 9):
 
-    random.seed(w)
+    random.seed(w+19)
 
     # create players' availability
 
@@ -105,14 +105,14 @@ for w in range(1, 9):
 
     if (numberTeamsDouble >=2):
         timetable += \
-                    (40 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
-                +   (40 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                    (50 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
+                +   (30 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
                 +   (10 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) \
                 +   (10 / min(10, 2 * numberTeamsDouble)) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D)
     else:
         timetable += \
-                        (40 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
-                    +   (40 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                        (50 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
+                    +   (30 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
                     +   (20 / 480) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) \
 
     # Constraints
@@ -340,4 +340,4 @@ for w in range(1, 9):
         if len(matchesPlayed) == 56:        # in case that all matches are played by the 8th week
             print("Tournament finished. All matches played!\n")
         else:                               # in case that not all matches are played, despite having the extra 8th week
-            print(f"Tournament finished. {56-len(matchesPlayed)} matches not played!\n")
+            print(f"Tournament finished. {((56-len(matchesPlayed))/2):1.0f} {'matches' if (56-len(matchesPlayed))/2 > 1 else 'match'} not played!\n")
