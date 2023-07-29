@@ -96,7 +96,7 @@ for w in range(1, 9):
 
     # Objective Function
 
-    if (w==8):
+    if (w == 8):
         maxMatches = 0
         for i in T:
             if (E[(i)]<3):
@@ -256,18 +256,19 @@ for w in range(1, 9):
         if i[1] in teamsNotPlaying:
             teamsNotPlaying.remove(i[1])
 
-    # Print the number of teams not playing this week and which ones
+    if (w != 8):
+        # Print the number of teams not playing this week and which ones
 
-    print(f"\nTeams not playing this week: {len(teamsNotPlaying)}", end=" ")
-    if len(teamsNotPlaying) > 0:
-        print("(", end= "")
-        for i in range(len(teamsNotPlaying)):
-            if i != len(teamsNotPlaying)-1:
-                print(f"{teamsNotPlaying[i]}", end= ", ")
-            else:
-                print(f"{teamsNotPlaying[i]})")
-    else:
-        print("")
+        print(f"\nTeams not playing this week: {len(teamsNotPlaying)}", end=" ")
+        if len(teamsNotPlaying) > 0:
+            print("(", end= "")
+            for i in range(len(teamsNotPlaying)):
+                if i != len(teamsNotPlaying)-1:
+                    print(f"{teamsNotPlaying[i]}", end= ", ")
+                else:
+                    print(f"{teamsNotPlaying[i]})")
+        else:
+            print("")
 
     # Players availability
 
@@ -294,7 +295,13 @@ for w in range(1, 9):
         totalSum += teamSum
         print(f"{match[0]:12} - {match[2]:12} - {teamSum:1d}")
 
-    print(f"Total number of available players: {totalSum} (max {60 if numberTeamsDouble >= 2 else 48})")
+    if (w == 8):
+        maxAvailablePlayers = min(60, maxMatches * 6)
+    elif (numberTeamsDouble >= 2):
+        maxAvailablePlayers = 60
+    else:
+        maxAvailablePlayers = 48
+    print(f"Total number of available players: {totalSum} (max {maxAvailablePlayers})")
 
     # Amount of players' availability for each team on its matchday
 
@@ -307,7 +314,13 @@ for w in range(1, 9):
         totalSum += teamSum
         print(f"{match[0]:12} - {match[2]:12} - {teamSum:2d}")
 
-    print(f"Total sum of players' availability: {totalSum} (max {600 if numberTeamsDouble >= 2 else 480})\n")
+    if (w == 8):
+        maxPlayersAvailability = min(600, maxMatches * 60)
+    elif (numberTeamsDouble >= 2):
+        maxPlayersAvailability = 600
+    else:
+        maxPlayersAvailability = 480
+    print(f"Total sum of players' availability: {totalSum} (max {maxPlayersAvailability})\n")
 
     # Update the teams' need for extra matches
 
@@ -323,7 +336,7 @@ for w in range(1, 9):
 
     # Games Played Difference Index
 
-    if numberTeamsDouble >= 2:
+    if w != 8 and numberTeamsDouble >= 2:
         print("\t       GPDI\n")
         print(f"Teams behind in matches played, play {teamsBehindWeeklyMatches:1.0f} times (max {min(10,2 * numberTeamsDouble)})\n")
 
