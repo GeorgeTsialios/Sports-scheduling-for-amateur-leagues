@@ -38,7 +38,7 @@ for i in T:
 
 for w in range(1, 9):
 
-    random.seed(w+50)   # 44-45-50
+    random.seed(w)   # 44-45-50
 
     # create players' availability
 
@@ -48,7 +48,7 @@ for w in range(1, 9):
     for i in T:
         for p in range(1,7):
             for d in D:
-                P[(i, p, d)] = random.choice([0, 0, 4, 7, 10])
+                P[(i, p, d)] = random.choice([ 0, 4, 7, 10])
 
     # print players' availability
 
@@ -153,7 +153,7 @@ for w in range(1, 9):
 
     for i in T:
         for d in D:
-            timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) >= 4 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed)
+            timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) >= 5 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed)
 
     # 6) Home and away matches are the same
 
@@ -168,7 +168,7 @@ for w in range(1, 9):
     tStart = timeit.default_timer()
     timetable.solve(pulp.PULP_CBC_CMD(msg=False))
     tEnd = timeit.default_timer()
-    print(f"\n---------------WEEK {w}---------------")
+    print(f"\n--------------- WEEK {w} ---------------")
     print(f"\nProblem solved in: {(tEnd-tStart):5.3f} seconds")
 
     # Status of the solved lp
