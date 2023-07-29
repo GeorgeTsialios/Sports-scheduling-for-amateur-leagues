@@ -38,7 +38,7 @@ for i in T:
 
 for w in range(1, 9):
 
-    random.seed(w+24)   # 44-45-50
+    random.seed(w+50)   # 44-45-50
 
     # create players' availability
 
@@ -75,14 +75,14 @@ for w in range(1, 9):
     
     # print teams' need for extra matches
 
-    for i in T:
-        print(f"\n\n{i}: {E[(i)]}")
+    # for i in T:
+    #     print(f"\n\n{i}: {E[(i)]}")
 
     # The teams that need extra matches
 
     teamsDouble = [i for i in T if E[(i)]]
 
-    # No of teams that need extra matches
+    # Number of teams that need extra matches
 
     numberTeamsDouble = len(teamsDouble)
 
@@ -183,19 +183,34 @@ for w in range(1, 9):
 
     print("\n\t       Schedule")
 
-    # No of teams able to play twice this week and which ones
-
-    print(f"\nTeams able to play twice this week: {numberTeamsDouble}", end=" ")
-    if numberTeamsDouble > 0:
-        print("(", end= "")
-        for i in range(len(teamsDouble)):
-            if i != len(teamsDouble)-1:
-                print(f"{teamsDouble[i]}", end= ", ")
+    if (w == 8):
+        # Number of matches left to be played and which ones
+        matchesLeft = []
+        print(f"\nMatches left to be played: {maxMatches/2:1.0f} (", end="")
+        for i in T:
+            for j in T:
+                if i != j and [i,j] not in matchesPlayed and [j,i] not in matchesLeft:
+                    matchesLeft.append([i,j])
+        for i in range(len(matchesLeft)):
+            if i != len(matchesLeft)-1:
+                print(f"{matchesLeft[i][0]} - {matchesLeft[i][1]}", end= ", ")
             else:
-                print(f"{teamsDouble[i]}", end="")
-        print(")")
+                print(f"{matchesLeft[i][0]} - {matchesLeft[i][1]})")
+
     else:
-        print("")
+        # Number of teams able to play twice this week and which ones
+
+        print(f"\nTeams able to play twice this week: {numberTeamsDouble}", end=" ")
+        if numberTeamsDouble > 0:
+            print("(", end= "")
+            for i in range(len(teamsDouble)):
+                if i != len(teamsDouble)-1:
+                    print(f"{teamsDouble[i]}", end= ", ")
+                else:
+                    print(f"{teamsDouble[i]}", end="")
+            print(")")
+        else:
+            print("")
 
     print("\nDay \t     - Home \t    - Away")
     weeklyMatches = []
@@ -241,7 +256,7 @@ for w in range(1, 9):
         if i[1] in teamsNotPlaying:
             teamsNotPlaying.remove(i[1])
 
-    # Print the no of teams not playing this week and which ones
+    # Print the number of teams not playing this week and which ones
 
     print(f"\nTeams not playing this week: {len(teamsNotPlaying)}", end=" ")
     if len(teamsNotPlaying) > 0:
@@ -268,7 +283,7 @@ for w in range(1, 9):
     # Sort the weeklyMatches list using the custom sorting function
     weeklyMatches = sorted(weeklyMatches, key=custom_sort)
 
-    # No of players available for each team on its matchday
+    # Number of players available for each team on its matchday
 
     print("\nTeam \t     - Matchday     - Players available:")
     totalSum = 0
