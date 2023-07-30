@@ -75,19 +75,19 @@ for w in range(1, 17):
 
     # write players' availability to file
 
-    with open('availability-16-test.txt', 'a') as f:
-        f.write(f"----------------------------------- WEEK {w} -----------------------------------\n\n")
-        for i in T:
-            f.write(f"{i}")
-            for p in range(1,7):
-                f.write(f"\n\nPlayer {p}")
-                f.write(' \n')
-                for d in range(len(D)):
-                    if d != len(D) - 1:
-                        f.write(f"{D[d]}: {P[(i, p, D[d])]}, ")
-                    else:
-                        f.write(f"{D[d]}: {P[(i, p, D[d])]}")
-            f.write('\n\n')
+    # with open('availability-16.txt', 'a') as f:
+    #     f.write(f"----------------------------------- WEEK {w} -----------------------------------\n\n")
+    #     for i in T:
+    #         f.write(f"{i}")
+    #         for p in range(1,7):
+    #             f.write(f"\n\nPlayer {p}")
+    #             f.write(' \n')
+    #             for d in range(len(D)):
+    #                 if d != len(D) - 1:
+    #                     f.write(f"{D[d]}: {P[(i, p, D[d])]}, ")
+    #                 else:
+    #                     f.write(f"{D[d]}: {P[(i, p, D[d])]}")
+    #         f.write('\n\n')
     
     # print teams' need for extra matches
 
