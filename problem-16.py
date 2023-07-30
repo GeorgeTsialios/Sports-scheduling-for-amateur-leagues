@@ -123,7 +123,7 @@ for w in range(1, 17):
         timetable += \
                     (50 / min(20, maxMatches)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
                 +   (30 / min(120, maxMatches * 6)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                +   (20 / min(1200, maxMatches * 60)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) \
+                +   (20 / min(1200, maxMatches * 60)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) 
 
     elif (numberTeamsDouble >=2):
         timetable += \
@@ -164,7 +164,7 @@ for w in range(1, 17):
                 timetable += (pulp.lpSum(x[(i,j,D[k])] for j in T if i != j and [i,j] not in matchesPlayed) + pulp.lpSum(x[(i,j,D[k+1])] for j in T if i != j and [i,j] not in matchesPlayed) + pulp.lpSum(x[(i,j,D[k+2])] for j in T if i != j and [i,j] not in matchesPlayed) <= 1)
 
 
-    # 4) Max 1 match per day can be played
+    # 4) Max 1 match per time slot can be played
 
     for d in D:
         timetable += pulp.lpSum(x[(i,j,d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed) <= 2
@@ -201,7 +201,7 @@ for w in range(1, 17):
 
     # Weekly schedule
 
-    print("\n\t       Schedule")
+    print("\n \t\t  Schedule")
 
     if (w == 16):
         # Number of matches left to be played and which ones
@@ -232,7 +232,7 @@ for w in range(1, 17):
         else:
             print("")
 
-    print("\nDay\t\t- Home \t       - Away")
+    print("\nDay\t\t- Home \t\t  - Away")
     weeklyMatches = []
     for match in x:
         if x[match].varValue == 1:
@@ -263,7 +263,7 @@ for w in range(1, 17):
                 counter+=1
                 break
         if counter:
-            print(f"{singleMatches[i][2]:15} - {singleMatches[i][0]:12} - {singleMatches[i][1]:12}")
+            print(f"{singleMatches[i][2]:15} - {singleMatches[i][0]:15} - {singleMatches[i][1]:15}")
         else:   
             print(f"{day}")
 
@@ -292,7 +292,7 @@ for w in range(1, 17):
 
     # Players availability
 
-    print("\n\t       Availability")
+    print("\n\t\t  Availability")
 
     # Sort first by team name, then by day
 
@@ -306,14 +306,14 @@ for w in range(1, 17):
 
     # Number of players available for each team on its matchday
 
-    print("\nTeam \t     - Matchday        - Players available")
+    print("\nTeam \t\t- Matchday\t  - Players available")
     totalSum = 0
     for match in weeklyMatches:
         teamSum = 0
         for p in range(1,7):
             teamSum += P[(match[0], p, match[2])] and 1
         totalSum += teamSum
-        print(f"{match[0]:12} - {match[2]:12} - {teamSum:1d}")
+        print(f"{match[0]:15} - {match[2]:15} - {teamSum:1d}")
 
     if (w == 16):
         maxAvailablePlayers = min(120, maxMatches * 6)
@@ -327,14 +327,14 @@ for w in range(1, 17):
 
     # Amount of players' availability for each team on its matchday
 
-    print("\nTeam \t     - Matchday        - Sum of players' availability")
+    print("\nTeam \t\t- Matchday\t  - Sum of players' availability")
     totalSum = 0
     for match in weeklyMatches:
         teamSum =0
         for p in range(1,7):
             teamSum += P[(match[0], p, match[2])]
         totalSum += teamSum
-        print(f"{match[0]:12} - {match[2]:12} - {teamSum:2d}")
+        print(f"{match[0]:15} - {match[2]:15} - {teamSum:2d}")
 
     if (w == 16):
         maxPlayersAvailability = min(1200, maxMatches * 60)
@@ -361,21 +361,21 @@ for w in range(1, 17):
     # Games Played Difference Index
 
     if w != 16 and numberTeamsDouble >= 2:
-        print("\t       GPDI\n")
+        print("\t\t  GPDI\n")
         print(f"Teams behind in matches played, play {teamsBehindWeeklyMatches:1.0f} times (max {min(20,2 * numberTeamsDouble)})\n")
 
     # Print the matches played by each team
 
-    print("\t       Matches played")
+    print("\t\t  Matches played")
 
-    print("\nTeam \t     - Opponents")
+    print("\nTeam \t\t- Opponents")
     for i in T:
         opponents = []
         for match in matchesPlayed:
             if match[0] == i:
                 opponents.append(match[1])
         # opponents.sort()              Without alphabetical order, we can the see the order of the matches played
-        print(f"{i:12} - ", end="")
+        print(f"{i:15} - ", end="")
         for j in opponents:
             if j != opponents[-1]:
                 print(f"{j}", end=", ")
@@ -385,7 +385,7 @@ for w in range(1, 17):
     print("")
 
     if w < 16:
-        if len(matchesPlayed) == 240:        # in case that all matches are played by the 7th week, the program ends
+        if len(matchesPlayed) == 240:        # in case that all matches are played by the 15th week, the program ends
             print("Tournament finished. All matches played!\n")
             break
         else:                               # if the tournament has not finished yet, ask for permission to continue to next week
