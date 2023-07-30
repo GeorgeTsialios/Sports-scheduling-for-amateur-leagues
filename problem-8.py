@@ -38,7 +38,7 @@ for i in T:
 
 for w in range(1, 9):
 
-    random.seed(w)   # 44-45-50
+    random.seed(w)  
 
     # create players' availability
 
@@ -62,15 +62,18 @@ for w in range(1, 9):
 
     # write players' availability to file
 
-    # with open('availability.txt', 'a') as f:
+    # with open('availability-8.txt', 'a') as f:
     #     f.write(f"----------------------------------- WEEK {w} -----------------------------------\n\n")
     #     for i in T:
     #         f.write(f"{i}")
     #         for p in range(1,7):
     #             f.write(f"\n\nPlayer {p}")
     #             f.write(' \n')
-    #             for d in D:
-    #                 f.write(f"{d}: {P[(i, p, d)]} ")
+    #             for d in range(len(D)):
+    #                 if d != len(D) - 1:
+    #                     f.write(f"{D[d]}: {P[(i, p, D[d])]}, ")
+    #                 else:
+    #                     f.write(f"{D[d]}: {P[(i, p, D[d])]}")
     #         f.write('\n\n')
     
     # print teams' need for extra matches
@@ -103,7 +106,7 @@ for w in range(1, 9):
                 maxMatches += E[(i)]
             else:
                 maxMatches += 2
-        # maxMatches /= 2
+        
         timetable += \
                     (50 / min(10, maxMatches)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
                 +   (30 / min(60, maxMatches * 6)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
@@ -149,7 +152,7 @@ for w in range(1, 9):
     for d in D:
         timetable += pulp.lpSum(x[(i,j,d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed) <= 2
 
-    # 5) A team can play when at least 4 of its players are available
+    # 5) A team can play when at least 5 of its players are available
 
     for i in T:
         for d in D:
@@ -286,7 +289,7 @@ for w in range(1, 9):
 
     # Number of players available for each team on its matchday
 
-    print("\nTeam \t     - Matchday     - Players available:")
+    print("\nTeam \t     - Matchday     - Players available")
     totalSum = 0
     for match in weeklyMatches:
         teamSum = 0
@@ -305,7 +308,7 @@ for w in range(1, 9):
 
     # Amount of players' availability for each team on its matchday
 
-    print("\nTeam \t     - Matchday     - Sum of players' availability:")
+    print("\nTeam \t     - Matchday     - Sum of players' availability")
     totalSum = 0
     for match in weeklyMatches:
         teamSum =0
