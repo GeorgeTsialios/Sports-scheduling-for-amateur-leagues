@@ -1,0 +1,2904 @@
+----------------------------------- WEEK 1 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 10
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 7
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 7
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 0
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 3 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 0
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 4
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 4
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 6 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 10
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 10
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 4
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 7
+
+----------------------------------- WEEK 2 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 7
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 4
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 0
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 4
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 10
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 7
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 4
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 10
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 10
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 10
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 10
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 0
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 10
+
+Player 6 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+----------------------------------- WEEK 3 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 7
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 7
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 0
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 0
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 10
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 4
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 10
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 10
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 0
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 4
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 4
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 4
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 10
+
+----------------------------------- WEEK 4 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 10
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 4
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 4
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 0
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 7
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 0
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 10
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 0
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 0
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 4, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 10
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 7
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 7
+
+----------------------------------- WEEK 5 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 10
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 4
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 7
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 0
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 7
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 7
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 4
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 7
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 7
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 7
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 4
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 10, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 0
+
+----------------------------------- WEEK 6 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 4, Sunday: 0
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 0
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 7
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 7
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 0
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 7
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 7
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 7
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 0
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 4
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 4
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 10
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 4
+
+----------------------------------- WEEK 7 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 0
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 0
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 0
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 0
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 4
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 10
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 4
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 10
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 4 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 10
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 7
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 0
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 10, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 4
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 5 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 10
+
+----------------------------------- WEEK 8 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 0
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 0
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 10
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 4, Sunday: 4
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 4
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 10
+
+Player 6 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 0
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 2 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 10
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 10
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 0
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 7
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 0, Sunday: 7
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 10
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 0
+
+----------------------------------- WEEK 9 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 0
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 0
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 4
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 10
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 0
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 4, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 4
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 7
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 0
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 10, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 0
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 10
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 4
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 10
+
+----------------------------------- WEEK 10 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 10
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 4, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 10
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 7, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 0, Sunday: 4
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 4, Sunday: 0
+
+Player 2 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 4
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 7
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 5 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 7, Sunday: 7
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 10
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 10
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 10
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 10
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 4, Saturday: 0, Sunday: 10
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 7
+
+----------------------------------- WEEK 11 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 4 
+Monday: 7, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 4
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 4 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 7, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 0
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 10, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 6 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 0
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 0
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 4, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 7
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 7, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 7, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 4, Sunday: 4
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 7
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 7
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 5 
+Monday: 7, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 4
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 7
+
+Player 5 
+Monday: 0, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 4, Sunday: 10
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 7, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 7
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 10
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 7, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 10, Saturday: 4, Sunday: 4
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 0, Tuesday: 4, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 10, Friday: 10, Saturday: 7, Sunday: 10
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 7, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 7, Sunday: 10
+
+Player 6 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 10, Saturday: 4, Sunday: 4
+
+----------------------------------- WEEK 12 -----------------------------------
+
+ÁÑÌÁÄÁ
+
+Player 1 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 0
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 4, Sunday: 10
+
+ÂÉÃÉÁÑÅÌÁË
+
+Player 1 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 4, Saturday: 10, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 4, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 4, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 0, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 10
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 4
+
+ÃÉÏÕÂÅÔÓÉ
+
+Player 1 
+Monday: 7, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 4, Saturday: 4, Sunday: 4
+
+Player 2 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 4 
+Monday: 7, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 7
+
+Player 6 
+Monday: 4, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 10, Sunday: 0
+
+ÈËÉÂÅÑĞÏÕË
+
+Player 1 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 7, Sunday: 10
+
+Player 4 
+Monday: 0, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 4, Tuesday: 7, Wednesday: 7, Thursday: 7, Friday: 10, Saturday: 0, Sunday: 10
+
+Player 6 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 7, Sunday: 4
+
+ÉĞĞÏÊÑÁÔÅÉÏ
+
+Player 1 
+Monday: 4, Tuesday: 0, Wednesday: 4, Thursday: 0, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 10, Friday: 10, Saturday: 10, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 0
+
+Player 5 
+Monday: 7, Tuesday: 10, Wednesday: 10, Thursday: 7, Friday: 4, Saturday: 7, Sunday: 0
+
+Player 6 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 4
+
+ÊÏÕÂÁÄÏÑÏÉ
+
+Player 1 
+Monday: 10, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 7
+
+Player 2 
+Monday: 10, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 4
+
+Player 3 
+Monday: 10, Tuesday: 4, Wednesday: 4, Thursday: 0, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 6 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 10
+
+ÌÇN ØHNECE
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 0, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 0
+
+Player 2 
+Monday: 4, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 4 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 10, Friday: 0, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 4
+
+Player 6 
+Monday: 4, Tuesday: 4, Wednesday: 4, Thursday: 7, Friday: 0, Saturday: 10, Sunday: 10
+
+ÌĞÁÑÔÓÅËÉÙÌÁ
+
+Player 1 
+Monday: 7, Tuesday: 4, Wednesday: 10, Thursday: 7, Friday: 7, Saturday: 7, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 0, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 10
+
+Player 4 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 7, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 4, Friday: 10, Saturday: 7, Sunday: 10
+
+ÌĞÕÑÁÊËÇÓ
+
+Player 1 
+Monday: 7, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 2 
+Monday: 4, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 3 
+Monday: 7, Tuesday: 4, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 0, Sunday: 4
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 10, Tuesday: 0, Wednesday: 4, Thursday: 7, Friday: 7, Saturday: 10, Sunday: 10
+
+Player 6 
+Monday: 4, Tuesday: 10, Wednesday: 10, Thursday: 10, Friday: 7, Saturday: 7, Sunday: 10
+
+ĞÁËÁÉÌÁ×ÏÉ
+
+Player 1 
+Monday: 10, Tuesday: 4, Wednesday: 10, Thursday: 4, Friday: 7, Saturday: 4, Sunday: 10
+
+Player 2 
+Monday: 10, Tuesday: 4, Wednesday: 0, Thursday: 10, Friday: 7, Saturday: 4, Sunday: 10
+
+Player 3 
+Monday: 0, Tuesday: 0, Wednesday: 4, Thursday: 4, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 4 
+Monday: 4, Tuesday: 10, Wednesday: 4, Thursday: 4, Friday: 4, Saturday: 7, Sunday: 7
+
+Player 5 
+Monday: 7, Tuesday: 0, Wednesday: 10, Thursday: 7, Friday: 0, Saturday: 4, Sunday: 4
+
+Player 6 
+Monday: 0, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 7
+
+ÑÅAË MANTPI
+
+Player 1 
+Monday: 4, Tuesday: 7, Wednesday: 4, Thursday: 4, Friday: 0, Saturday: 10, Sunday: 7
+
+Player 2 
+Monday: 0, Tuesday: 7, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 0, Sunday: 0
+
+Player 3 
+Monday: 7, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 7, Saturday: 7, Sunday: 4
+
+Player 4 
+Monday: 10, Tuesday: 7, Wednesday: 7, Thursday: 10, Friday: 4, Saturday: 4, Sunday: 0
+
+Player 5 
+Monday: 4, Tuesday: 4, Wednesday: 10, Thursday: 10, Friday: 0, Saturday: 10, Sunday: 10
+
+Player 6 
+Monday: 10, Tuesday: 10, Wednesday: 10, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 0
+
+×ÁÂÁËÅÍÈÉÁ
+
+Player 1 
+Monday: 0, Tuesday: 0, Wednesday: 10, Thursday: 0, Friday: 4, Saturday: 0, Sunday: 4
+
+Player 2 
+Monday: 7, Tuesday: 0, Wednesday: 7, Thursday: 10, Friday: 10, Saturday: 0, Sunday: 7
+
+Player 3 
+Monday: 4, Tuesday: 10, Wednesday: 0, Thursday: 4, Friday: 0, Saturday: 0, Sunday: 7
+
+Player 4 
+Monday: 10, Tuesday: 0, Wednesday: 7, Thursday: 4, Friday: 7, Saturday: 10, Sunday: 4
+
+Player 5 
+Monday: 0, Tuesday: 10, Wednesday: 0, Thursday: 0, Friday: 10, Saturday: 7, Sunday: 7
+
+Player 6 
+Monday: 7, Tuesday: 0, Wednesday: 0, Thursday: 10, Friday: 4, Saturday: 7, Sunday: 10
+
