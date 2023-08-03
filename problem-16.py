@@ -358,10 +358,10 @@ for w in range(1, 17):
         elif teamWeeklyMatches == 2:
             E[(i)] -= 1
 
-    # Games Played Difference Index
+    # Games Played Difference
 
     if w != 16 and numberTeamsDouble >= 2:
-        print("\t\t  GPDI\n")
+        print("\t\t  Games Played Difference\n")
         print(f"Teams behind in matches played, play {teamsBehindWeeklyMatches:1.0f} times (max {min(20,2 * numberTeamsDouble)})\n")
 
     # Print the matches played by each team
