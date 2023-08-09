@@ -152,24 +152,24 @@ for w in range(1, 13):
         for k in range(len(D)-1):
             timetable += (pulp.lpSum(x[(i,j,D[k])] for j in T if i != j and [i,j] not in M) + pulp.lpSum(x[(i,j,D[k+1])] for j in T if i != j and [i,j] not in M) <= 1)
 
-    # 4) Max 1 match per day can be played
+    # 4) Home and away matches are the same
+
+    for i in T:
+        for j in T:
+            if i != j and [i,j] not in M:
+                for d in D:
+                    timetable += x[(i,j,d)] == x[(j,i,d)]
+
+    # 5) Max 1 match per day can be played
 
     for d in D:
         timetable += pulp.lpSum(x[(i,j,d)] for i in T for j in T if i != j and [i,j] not in M) <= 2
 
-    # 5) A team can play when at least 5 of its players are available
+    # 6) A team can play when at least 5 of its players are available
 
     for i in T:
         for d in D:
             timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) >= 5 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M)
-
-    # 6) Home and away matches are the same
-
-    for i in T:
-        for j in T:
-            if i !=j and [i,j] not in M:
-                for d in D:
-                    timetable += x[(i,j,d)] == x[(j,i,d)]
 
     # Solution
 
