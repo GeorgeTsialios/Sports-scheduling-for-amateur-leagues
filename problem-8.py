@@ -25,7 +25,7 @@ D = [
     'Friday'
 ]
 
-matchesPlayed = []
+M = []  # matches that have already been played
 
 # create teams' need for extra matches
 
@@ -95,7 +95,7 @@ for w in range(1, 9):
 
     # Decision Variables
 
-    x = pulp.LpVariable.dicts("x", [(i, j, d) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D], cat= pulp.LpBinary)
+    x = pulp.LpVariable.dicts("x", [(i, j, d) for i in T for j in T if i != j and [i,j] not in M for d in D], cat= pulp.LpBinary)
 
     # Objective Function
 
@@ -108,21 +108,21 @@ for w in range(1, 9):
                 maxMatches += 2
         
         timetable += \
-                    (50 / min(10, maxMatches)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
-                +   (30 / min(60, maxMatches * 6)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                +   (20 / min(600, maxMatches * 60)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) 
+                    (50 / min(10, maxMatches)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D) \
+                +   (30 / min(60, maxMatches * 6)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                +   (20 / min(600, maxMatches * 60)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] ) 
 
     elif (numberTeamsDouble >=2):
         timetable += \
-                    (50 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
-                +   (30 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                +   (10 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] ) \
-                +   (10 / min(10, 2 * numberTeamsDouble)) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D)
+                    (50 / 10) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D) \
+                +   (30 / 60) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                +   (10 / 600) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] ) \
+                +   (10 / min(10, 2 * numberTeamsDouble)) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in M for d in D)
     else:
         timetable += \
-                    (50 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D) \
-                +   (30 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                +   (20 / 480) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed for d in D  for p in range(1,7) if P[(i, p, d)] )
+                    (50 / 8) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D) \
+                +   (30 / 48) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
+                +   (20 / 480) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] )
 
     # Constraints
 
@@ -131,13 +131,13 @@ for w in range(1, 9):
     #    b) up to twice per week if they are behind in matches played
 
     for i in T:
-        timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed for d in D) <= 1 + (E[(i)] and 1)
+        timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M for d in D) <= 1 + (E[(i)] and 1)
 
     # 2) A team can only play once vs another team per week
 
     for i in T:
         for j in T:
-            if i != j and [i,j] not in matchesPlayed:
+            if i != j and [i,j] not in M:
                     timetable += pulp.lpSum(x[(i,j,d)] for d in D) <= 1
 
 
@@ -145,24 +145,24 @@ for w in range(1, 9):
 
     for i in T:
         for k in range(len(D)-1):
-            timetable += (pulp.lpSum(x[(i,j,D[k])] for j in T if i != j and [i,j] not in matchesPlayed) + pulp.lpSum(x[(i,j,D[k+1])] for j in T if i != j and [i,j] not in matchesPlayed) <= 1)
+            timetable += (pulp.lpSum(x[(i,j,D[k])] for j in T if i != j and [i,j] not in M) + pulp.lpSum(x[(i,j,D[k+1])] for j in T if i != j and [i,j] not in M) <= 1)
 
     # 4) Max 1 match per day can be played
 
     for d in D:
-        timetable += pulp.lpSum(x[(i,j,d)] for i in T for j in T if i != j and [i,j] not in matchesPlayed) <= 2
+        timetable += pulp.lpSum(x[(i,j,d)] for i in T for j in T if i != j and [i,j] not in M) <= 2
 
     # 5) A team can play when at least 5 of its players are available
 
     for i in T:
         for d in D:
-            timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) >= 5 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in matchesPlayed)
+            timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) >= 5 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M)
 
     # 6) Home and away matches are the same
 
     for i in T:
         for j in T:
-            if i !=j and [i,j] not in matchesPlayed:
+            if i !=j and [i,j] not in M:
                 for d in D:
                     timetable += x[(i,j,d)] == x[(j,i,d)]
 
@@ -192,7 +192,7 @@ for w in range(1, 9):
         print(f"\nMatches left to be played: {maxMatches/2:1.0f} (", end="")
         for i in T:
             for j in T:
-                if i != j and [i,j] not in matchesPlayed and [j,i] not in matchesLeft:
+                if i != j and [i,j] not in M and [j,i] not in matchesLeft:
                     matchesLeft.append([i,j])
         for i in range(len(matchesLeft)):
             if i != len(matchesLeft)-1:
@@ -224,7 +224,7 @@ for w in range(1, 9):
     # Add the weekly matches to the list of matches played
 
     for match in weeklyMatches:
-        matchesPlayed.append([match[0], match[1]])
+        M.append([match[0], match[1]])
 
     # Sort the matches by day
     
@@ -350,7 +350,7 @@ for w in range(1, 9):
     print("\nTeam \t     - Opponents")
     for i in T:
         opponents = []
-        for match in matchesPlayed:
+        for match in M:
             if match[0] == i:
                 opponents.append(match[1])
         # opponents.sort()              Without alphabetical order, we can the see the order of the matches played
@@ -364,7 +364,7 @@ for w in range(1, 9):
     print("")
 
     if w < 8:
-        if len(matchesPlayed) == 56:        # in case that all matches are played by the 7th week, the program ends
+        if len(M) == 56:        # in case that all matches are played by the 7th week, the program ends
             print("Tournament finished. All matches played!\n")
             break
         else:                               # if the tournament has not finished yet, ask for permission to continue to next week
@@ -374,7 +374,7 @@ for w in range(1, 9):
             else:
                 break
     else:   # Code for the 8th week, program ends right after
-        if len(matchesPlayed) == 56:        # in case that all matches are played by the 8th week
+        if len(M) == 56:        # in case that all matches are played by the 8th week
             print("Tournament finished. All matches played!\n")
         else:                               # in case that not all matches are played, despite having the extra 8th week
-            print(f"Tournament finished. {((56-len(matchesPlayed))/2):1.0f} {'matches' if (56-len(matchesPlayed))/2 > 1 else 'match'} not played!\n")
+            print(f"Tournament finished. {((56-len(M))/2):1.0f} {'matches' if (56-len(M))/2 > 1 else 'match'} not played!\n")
