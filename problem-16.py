@@ -180,7 +180,7 @@ for w in range(1, 17):
 
     for i in T:
         for d in D:
-            timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M) * pulp.lpSum(P[(i, p, d)] % (P[(i, p, d)]-1) for p in range(1,7)) >= 5 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M)
+            timetable += pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M) * pulp.lpSum(P[(i, p, d)] and 1 for p in range(1,7)) >= 5 * pulp.lpSum(x[(i,j,d)] for j in T if i != j and [i,j] not in M)
 
     # Solution
 
