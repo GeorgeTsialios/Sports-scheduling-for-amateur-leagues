@@ -38,7 +38,7 @@ for i in T:
 
 for w in range(1, 9):
 
-    random.seed(w)  
+    random.seed(w) # *10 για OF better than simple  
 
     # create players' availability
 
