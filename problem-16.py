@@ -123,19 +123,19 @@ for w in range(1, 17):
         timetable += \
                     (50 / min(20, maxMatches)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D) \
                 +   (30 / min(120, maxMatches * 6)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                +   (20 / min(1200, maxMatches * 60)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] ) 
+                +   (20 / min(1200, maxMatches * 60)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D for p in range(1,7)) 
 
     elif (numberTeamsDouble >=2):
         timetable += \
                     (50 / (20 if numberTeamsDouble >=4 else 18)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D) \
                 +   (30 / (120 if numberTeamsDouble >=4 else 108)) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                +   (10 / (1200 if numberTeamsDouble >=4 else 1080)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] ) \
+                +   (10 / (1200 if numberTeamsDouble >=4 else 1080)) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D for p in range(1,7)) \
                 +   (10 / min(20, 2 * numberTeamsDouble)) * pulp.lpSum(x[(i, j, d)] * (E[(i)] and 1) for i in T for j in T if i != j and [i,j] not in M for d in D)
     else:
         timetable += \
                     (50 / 16) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D) \
                 +   (30 / 96) * pulp.lpSum(x[(i, j, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] and 1) \
-                +   (20 / 960) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D  for p in range(1,7) if P[(i, p, d)] )
+                +   (20 / 960) * pulp.lpSum(x[(i, j, d)] * P[(i, p, d)] for i in T for j in T if i != j and [i,j] not in M for d in D for p in range(1,7))
 
     # Constraints
 
