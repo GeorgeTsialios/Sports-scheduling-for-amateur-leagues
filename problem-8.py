@@ -49,7 +49,7 @@ for w in range(1, 9):
     for i in T:
         for p in range(1,7):
             for d in D:
-                P[(i, p, d)] = random.choice([ 0, 4, 7, 10])
+                P[(i, p, d)] = random.choice([0, 4, 7, 10])
 
     # print players' availability
 
@@ -368,7 +368,7 @@ for w in range(1, 9):
         if len(M) == 56:        # in case that all matches are played by the 7th week, the program ends
             print("Tournament finished. All matches played!\n")
             break
-        else:                               # if the tournament has not finished yet, ask for permission to continue to next week
+        else:                   # if the tournament has not finished yet, ask for permission to continue to next week
             cont = input("Continue? (y/n): ")
             if cont == "y" or cont == "Y" or cont == "yes" or cont == "Yes" or cont == "YES":
                 continue
@@ -377,5 +377,5 @@ for w in range(1, 9):
     else:   # Code for the 8th week, program ends right after
         if len(M) == 56:        # in case that all matches are played by the 8th week
             print("Tournament finished. All matches played!\n")
-        else:                               # in case that not all matches are played, despite having the extra 8th week
+        else:                   # in case that not all matches are played, despite having the extra 8th week
             print(f"Tournament finished. {((56-len(M))/2):1.0f} {'matches' if (56-len(M))/2 > 1 else 'match'} not played!\n")
