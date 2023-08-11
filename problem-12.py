@@ -312,9 +312,9 @@ for w in range(1, 13):
         maxAvailablePlayers = 72
     print(f"Total number of available players: {totalSum} (max {maxAvailablePlayers})")
 
-    # Amount of players' availability for each team on its matchday
+    # Amount of players' preference for each team on its matchday
 
-    print("\nTeam \t     - Matchday     - Sum of players' availability")
+    print("\nTeam \t     - Matchday     - Sum of players' preference")
     totalSum = 0
     for match in weeklyMatches:
         teamSum =0
@@ -324,12 +324,12 @@ for w in range(1, 13):
         print(f"{match[0]:12} - {match[2]:12} - {teamSum:2d}")
 
     if (w == 12):
-        maxPlayersAvailability = min(840, maxMatches * 60)
+        maxPlayersPreference = min(840, maxMatches * 60)
     elif (numberTeamsDouble >= 2):
-        maxPlayersAvailability = 840
+        maxPlayersPreference = 840
     else:
-        maxPlayersAvailability = 720
-    print(f"Total sum of players' availability: {totalSum} (max {maxPlayersAvailability})\n")
+        maxPlayersPreference = 720
+    print(f"Total sum of players' preference: {totalSum} (max {maxPlayersPreference})\n")
 
     # Update the teams' need for extra matches
 
