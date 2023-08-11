@@ -38,25 +38,26 @@ D = [
     'Friday    21:00'
 ]
 
-M = [] # matches that have already been played
+# matches that have already been played
 
-# create teams' need for extra matches
+M = [] 
+
+# create teams' need for extra matches and initialize to 0
 
 E = pulp.LpVariable.dicts("E", [(i) for i in T], cat= pulp.LpInteger)
 
 for i in T:
     E[(i)] = 0
 
+# create players' availability
+
+P = pulp.LpVariable.dicts("P", [(i, p, d) for i in T for p in range(1,7) for d in D], cat= pulp.LpInteger)
+
 # for every week of the tournament
 
 for w in range(1, 17):
 
     random.seed(w+10)
-
-    # create players' availability
-
-    P = pulp.LpVariable.dicts("P", [(i, p, d) for i in T for p in range(1,7) for d in D], cat= pulp.LpInteger)
-
 
     for i in T:
         for p in range(1,7):
