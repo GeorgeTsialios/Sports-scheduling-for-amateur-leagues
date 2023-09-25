@@ -1,0 +1,58 @@
+ΠΕΡΙΟΡΙΣΜΟΙ
+
+1)
+
+\sum_{j}^{}\sum_{d}^{}x_{_{i,j,d}}\le 1+(E_{_{i}} \text{ }{\wedge}\text{  }1)\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } i \in T \text{  } with \text{  } i\neq j, \text{  } (i,j) \notin M
+
+2)
+
+\sum_{d}^{}x_{_{i,j,d}}\le 1\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } i \in T,\text{ } j \in T \text{  } with \text{  } i\neq j, \text{  } (i,j) \notin M  
+
+3)
+
+\sum_{j}^{}x_{_{i,j,d}}+\sum_{j}^{}x_{_{i,j,d+1}}\le 1\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } i \in T,\text{ } d \in D \text{  } with \text{  } i\neq j, \text{ }(i,j) \notin M 
+
+4)
+
+x_{_{i,j,d}} \equiv \text{  } x_{_{j,i,d}}\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } i \in T,\text{ } j \in T, \text{  } d \in D\text{ } with \text{  } i\neq j, \text{  } (i,j) \notin M
+
+5)
+
+\sum_{i}^{}\sum_{j}^{}x_{_{i,j,d}}\le 2 \text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } d \in D \text{  } with \text{  } i\neq j, \text{  } (i,j) \notin M
+
+6)
+
+\sum_{p}^{}P_{_{i,p,d}}\text{ }{\wedge}\text{ }1\sum_{j}^{}x_{_{i,j,d}}\ge 5 \sum_{j}^{}x_{_{i,j,d}} \text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } i \in T,\text{ } d \in D \text{  } with \text{  } i\neq j, \text{ }(i,j) \notin M 
+
+
+ΑΝΤΙΚΕΙΜΕΝΙΚΗ
+
+α)
+
+\max Z =\frac{50}{8} \sum_{i}^{}\sum_{j}^{}\sum_{d}^{}x_{_{i,j,d}} +
+\frac{30}{48} \sum_{i}^{}\sum_{d}^{}(\small \sum_{j}^{} \normalsize x_{_{i,j,d}}) \cdot (\small\sum_{p}^{}\normalsize P_{_{i,p,d}}\text{ }{\wedge}\text{ }1)\text{  } + \\
+\text{  }\text{  }\text{}\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }
+\frac{20}{480} \sum_{i}^{}\sum_{d}^{}(\small \sum_{j}^{} \normalsize x_{_{i,j,d}}) \cdot (\small\sum_{p}^{}\normalsize P_{_{i,p,d}})
+
+ \text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } i \in T,\text{ } d \in D \text{  } with \text{  } i\neq j, \text{ }(i,j) \notin M
+
+β)
+
+\max Z =\frac{50}{10} \sum_{i}^{}\sum_{j}^{}\sum_{d}^{}x_{_{i,j,d}} +
+\frac{30}{60} \sum_{i}^{}\sum_{d}^{}(\small \sum_{j}^{} \normalsize x_{_{i,j,d}}) \cdot (\small\sum_{p}^{}\normalsize P_{_{i,p,d}}\text{ }{\wedge}\text{ }1)\text{ } + 
+
+\frac{10}{600} \sum_{i}^{}\sum_{d}^{}(\small \sum_{j}^{} \normalsize x_{_{i,j,d}}) \cdot (\small\sum_{p}^{}\normalsize P_{_{i,p,d}}) \\
+
+\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }+ \frac{10}{\min(\small 10,2\cdot \normalsize\sum_{i}^{}\small(E_{_{i}} \text{ }{\wedge}\text{  }1)\normalsize)} \sum_{i}^{}\sum_{j}^{}\sum_{d}^{}x_{_{i,j,d}} \cdot (E_{_{i}} \text{ }{\wedge}\text{  }1)
+
+ \text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\text{  }\forall \text{  } i \in T,\text{ } d \in D \text{  } with \text{  } i\neq j, \text{ }(i,j) \notin M
+
+Επαλήθευση Α
+
+\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ } \frac{50}{4}\cdot4 \text{ } + \frac{30}{48}\cdot43 \text{ } + \frac{20}{480}\cdot301 = 89.42
+\\ \text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\uparrow \text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ } \uparrow \text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }  \uparrow  
+
+ΕΠΑΛΗΘΕΥΣΗ Β
+
+\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ } \frac{50}{5}\cdot4 \text{ } + \frac{30}{60}\cdot43 \text{ } + \frac{10}{600}\cdot325 \text{ } + \frac{10}{4}\cdot3 = 74.42
+\\ \text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\uparrow\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\uparrow \text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ } \uparrow \text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }\text{ }  \uparrow 
