@@ -26,9 +26,10 @@ To run the application, ensure the following:
 
 Additional resources and documentation can be found in:
 
-- `Report_Greek.pdf`: A detailed report in Greek that defines the problem, models it with Linear Programming, implements it in Python, and analyzes performance through test runs.
-- `Presentation_Greek.pptx`: A Greek presentation showcasing the tournament case study, problem modeling, results, and conclusions.
-- `Presentation_English.pptx`: An English presentation showcasing the tournament case study, problem modeling, results, and conclusions.
+- [Project Report (PDF, in Greek)](https://github.com/GeorgeTsialios/Sports-scheduling-for-amateur-leagues/blob/master/Report_Greek.pdf): A detailed report that defines the problem, models it with Linear Programming, implements it in Python, and analyzes performance through test runs.
+- [Project Presentation (PPTX, in Greek)](https://github.com/GeorgeTsialios/Sports-scheduling-for-amateur-leagues/blob/master/Presentation_Greek.pptx): A Greek presentation showcasing the tournament case study, problem modeling, results, and conclusions.
+- [Project Presentation (PPTX, in English)](https://github.com/GeorgeTsialios/Sports-scheduling-for-amateur-leagues/blob/master/Presentation_English.pptx): An English presentation showcasing the tournament case study, problem modeling, results, and conclusions.
+
 
 <br/>
 
