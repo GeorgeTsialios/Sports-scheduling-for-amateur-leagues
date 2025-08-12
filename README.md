@@ -1,7 +1,6 @@
 # Sports Scheduling for Amateur Leagues
 
-This project was developed for the *Linear & Combinatorial Optimization* course in the 8th semester of the Electrical and Computer Engineering Department at the University of Patras.  
-It addresses the well-known *Sports Scheduling Problem* using the example of an amateur football tournament. This problem involves the manual creation of a tournament's match schedule, which is a time-consuming process that often produces inefficient results.
+This project was developed for the *Linear & Combinatorial Optimization* course in the 8th semester of the Electrical and Computer Engineering Department at the University of Patras. It addresses the well-known *Sports Scheduling Problem* using the example of an amateur football tournament. This problem involves the manual creation of a tournament's match schedule, which is a time-consuming process that often produces inefficient results.
 
 To tackle this issue, I modeled the scheduling process as a Linear Programming problem and implemented a solution using Python’s PuLP library. The created application fully automates the task, generating optimal match schedules in under 1 second, significantly reducing planning time while aiming to meet the needs of both:
 
